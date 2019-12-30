@@ -69,7 +69,7 @@ app.controller("myCtrl", function($scope, $rootScope, $interval) {
     //设置Rgcontent初始数据
     for (var x = 1; x < $scope.showArr.length; x++) {
         var obj = new Object();
-        var rand = Math.round(Math.random() * 10);
+        var rand = Math.round(Math.random() * 8)+2;
         obj.name = $scope.showArr[x].name;
         var conts = new Array();
         for (var y = 0; y < rand; y++) {
@@ -88,7 +88,7 @@ app.controller("myCtrl", function($scope, $rootScope, $interval) {
         $rootScope.NavDivShowIndex = navIndex;
         if (this.x.id != "0") {
             $rootScope.aArr = [];
-            var rand = Math.round(Math.random() * 10);
+            var rand = Math.round(Math.random() * 8)+2;
             var obj = new Object();
             obj.name = this.x.name;
             var conts = new Array();
@@ -110,7 +110,7 @@ app.controller("myCtrl", function($scope, $rootScope, $interval) {
         $scope.IsSelected = index;
         if (this.x.name != $scope.lfArr[0].name) {
             $rootScope.aArr = [];
-            var rand = Math.round(Math.random() * 10);
+            var rand = Math.round(Math.random() * 8)+2;
             var obj = new Object();
             obj.name = this.x.name;
             var conts = new Array();
@@ -132,7 +132,7 @@ app.controller('HomeController', function($scope, $http, $rootScope, $routeParam
     $rootScope.NavDivShowIndex = idd;
     if (idd != "0") {
         $rootScope.aArr = [];
-        var rand = Math.round(Math.random() * 10);
+        var rand = Math.round(Math.random() * 8)+2;
         var obj = new Object();
         obj.name = $rootScope.linames[idd].name;
         var conts = new Array();
