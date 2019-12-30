@@ -1,0 +1,118 @@
+ *
+{
+	padding: 0px;
+	margin: 0px;
+}
+div.circle
+{
+	position:relative;
+	width:815px;
+	height:390px;
+	overflow:hidden;
+	margin:0 auto;
+	background-color:white;
+	margin-top: 20px;
+}
+ul.cirul
+{
+	position: absolute;
+}
+ul.cirul li
+{
+	list-style-type: none;
+	position: absolute;
+	transition: all linear 0.5s;
+}
+ul.cirul li img
+{
+	display: block;
+	width: 815px;
+}
+div ul.listContent
+{
+	position: absolute;
+	right: 15px;
+	top: 335px;
+	width: 260px;
+	height: 25px;
+	background-color:transparent;
+}
+div ul.listContent li.list
+{	
+	list-style: none;
+	float: left;
+	margin: 8px 5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position:relative;
+	border: 2px solid rgba(142, 142, 142, 0.0);
+	background-color:transparent;
+}
+.active
+{
+	border: 2px solid rgba(142, 142, 142, 1.0)!important;
+}
+
+
+.innerBox
+{
+	background-color:gray;
+	z-index:99;
+	width:8px;
+	height:8px;
+	border-radius: 50%;
+	position:absolute;
+	margin:auto;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+
+
+.wideBox
+{
+	width: 12px !important;
+	height: 12px !important;
+}
+
+
+button
+{
+	outline:none;
+	position:absolute;
+	color:lightgray;
+	background-color:rgba(78, 76, 76, 0.0);
+	font-size:45px;
+	width:40px;
+	height:63px;
+	top:160px;
+	z-index:100;
+	border:0px;
+	text-align:center;
+}
+
+.butLeft
+{
+	left:0px;
+}
+
+.butRight
+{
+	right:0px;
+}
+
+.butLeft:hover,.butRight:hover
+{
+	color:white;
+	background-color:rgba(78, 76, 76, 0.6)
+}
+
+
+.ng-hide
+{
+	opacity: 0.0;
+}
+
+

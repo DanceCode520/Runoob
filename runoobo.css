@@ -1,0 +1,273 @@
+* {
+	background-color: #f6f6f6;
+}
+
+.head {
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.head a {
+	display: inline-block;
+}
+
+.logo {
+	float: left;
+}
+
+.search {
+	float: right;
+	height: 40px;
+	width: 36%;
+}
+
+.search input {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	height: 36px;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #c8c8c8;
+	border-radius: 3px;
+	padding-left: 1em;
+	box-shadow: 0px 0px 35px #ccc;
+}
+
+.nav 
+{
+	background-color: #96b97d;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 9;
+	position: relative;
+}
+
+.nav ul {
+	width: 1100px;
+	margin: 0 auto;
+	height: 20px;
+	background-color: #96b97d;
+	list-style: none;
+}
+
+.nav ul li {
+	position: relative;
+	display: inline-block;
+	background-color: #96b97d;
+}
+
+.nav ul li a {
+	float: left;
+	background-color: #96b97d;
+	margin-right: 18px;
+	line-height: 20px;
+	text-align: center-left;
+	text-decoration: none;
+	color: white;
+}
+
+.nav ul li a:hover {
+	color: lightgray;
+}
+
+.box:hover {
+	display: block;
+}
+
+.box {
+	position: absolute;
+	margin-top: 1.5px;
+	display: none;
+	padding-top: 24px;
+	background-color: transparent;
+	left: -90px;
+	border-radius: 5px;	/* -webkit-transition: visibility 0.09s; */
+}
+
+.con {
+	width: 200px;
+	background-color: black;
+	border: 0px black solid;
+	border-radius: 8px;
+	overflow: hidden;
+	padding: 5px 0px;
+}
+
+.con  a {
+	text-decoration: none;
+	width: 50%;
+	float: left;
+	background-color: black;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+}
+
+.con-ret 
+{
+	border: 6px solid #96b97df7;
+	border-bottom-color: white;
+	position: absolute;
+	left: 9px;
+	top: 18px;
+}
+
+.content {
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #f6f6f6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.contentLf {
+	float: left;
+	width: 20%;
+	background-color: white;
+	overflow: hidden;
+	border: 2px solid #eeeeee;
+}
+
+.contentLf h2 {
+	padding: 10px;
+	background-color: white;
+	font-size: 19px;
+}
+
+.contentRgCircle {
+	float: right;
+	width: 76%;
+	background-color: white;
+	padding: 15px;
+	padding-top: 0px;
+}
+
+.contentRg {
+	float: left;
+	width: 100%;
+	background-color: white;
+}
+
+.contentLf div {
+	width: 100%;
+	padding: 8px;
+	vertical-align: middle;
+}
+
+.contentLf div a img {
+	margin-top: 5px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+a.visitedColor {
+	color: orange !important;
+}
+
+.contentLf div a {
+	text-align: left;
+	text-decoration: none;
+	vertical-align: middle;
+	color: black;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+}
+
+.contentLf div:nth-child(even), .contentLf div:nth-child(even) a {
+	background-color: white;
+}
+
+.rgTitle {
+	border: 1px solid transparent;
+	border-bottom-color: lightgray;
+	background-color: white;
+	padding: 3px 0px;
+	font-size: 25px;
+	color: black;
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+}
+
+.rgTitle img {
+	float: left;
+	margin-right: 10px;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	padding-top: 3px;
+}
+
+.rgTitle strong {
+	display: block;
+	background-color: white;
+	text-align: left;
+	font-size: 24px;
+}
+
+a.RgPice {
+	width: 28%;
+	margin: 5px 8px 10px 0;
+	text-align: left;
+	color: #bbb;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	padding: 10px 16px;
+	float: left;
+	overflow: hidden;
+	text-decoration: none;
+	opacity: 1.0;
+	margin: 10px 10px 0 0;
+	min-height: 65px;
+}
+
+a.RgPice:hover {
+	opacity: 0.4;
+}
+
+a.RgPice h4 {
+	color: #64854c;
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+	text-align: left;
+}
+
+a.RgPice img {
+	float: left;
+	margin-right: 10px;
+	display: block;
+	width: 36px;
+}
+
+a.RgPice strong {
+	display: block;
+	color: #666;
+	text-align: left;
+	font-size: 12px;
+}
+
+footer {
+	width: 100%;
+	float: left;
+}
+
+footer p 
+{
+	text-align: center;
+	height: 50px;
+	background-color: white;
+	margin-top: 30px;
+	vertical-align: middle;
+	line-height: 50px;
+	color: #999;
+}

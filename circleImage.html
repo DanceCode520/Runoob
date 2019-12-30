@@ -1,0 +1,21 @@
+<div class="circle" ng-mouseleave="start()" ng-mouseover="divMouseOutIn()" ng-mouseleave="divMouseOutIn()">
+    <ul class="cirul" id="imgId">
+        <li ng-repeat="t in imgs"  ng-show="$index==LiSelectedIndex">
+            <img src="./images/circle{{t}}.png" alt="">
+        </li>
+    </ul>
+    <ul class="listContent">
+        <li ng-repeat='x in imgs' ng-class="{'active':$index==LiSelectedIndex,'list':true}" ng-mouseover='clickEvent($index,$event)' ng-click='clickEvent($index,$event)'>
+            <div ng-class="{'active':$index==LiSelectedIndex,'innerBox':true}" class='innerBox'></div>
+        </li>
+    </ul>
+    <button ng-click="clickLeftRightBut(true)" class="butLeft"><</button> 
+    <button ng-click="clickLeftRightBut(false)" class="butRight">></button>
+</div>
+
+
+
+
+
+
+
