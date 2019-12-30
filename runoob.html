@@ -15,19 +15,19 @@
     <script src="directive.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
-<body ng-controller="myCtrl">
-    <div class="head">
+<body ng-controller="myCtrl ">
+    <div class="head ">
         <a href="#">
-            <img src="./images/logo.png" />
+            <img src="./images/logo.png " />
         </a>
         <div class="search">
-            <input placeholder="搜索……" type="text" />
+            <input placeholder="搜索…… " type="text " />
         </div>
     </div>
     <div class="nav">
         <ul id="navId">
-            <li ng-repeat="x in linames">
-                <a href="#/{{x.url}}/{{x.id}}" ng-click="TouchNav($index)">{{x.name}}</a>
+            <li ng-repeat="x in linames ">
+                <a href="#/{{x.url}}/{{x.id}} " ng-click="TouchNav($index) ">{{x.name}}</a>
                 <div ng-show="$index==NavDivShowIndex" class="con-ret"></div>
             </li>
         </ul>
@@ -38,7 +38,7 @@
         <div class="contentRgCircle">
             <div id="contentRg" class="contentRg">
                 <div ng-repeat="x in aArr">
-                    <div class="rgTitle">
+                    <div class="rgTitle ">
                         <img src="./images/all3.png" />
                         <strong>{{x.name}}</strong>
                     </div>
